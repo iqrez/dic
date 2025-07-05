@@ -48,7 +48,7 @@ class Config:
     discord_token = "YOUR_TOKEN_HERE"
     default_volume = 0.5
     auto_disconnect_delay = 300
-   ugt = "YOUR_FFMPEG_EXECUTABLE_PATH"
+    ffmpeg_executable = "ffmpeg"
     ffmpeg_options = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5', 'options': '-vn'}
 
 # Setup logging
