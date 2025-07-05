@@ -10,9 +10,9 @@ import sys
 from pathlib import Path
 import discord
 
-from bot.config import setup_environment, get_config
-from bot.music_player import MusicBot
-from bot.database import init_database
+from config import setup_environment, get_config
+from music_player import MusicBot
+from database import init_database
 
 def setup_logging():
     """Configure logging for the Discord bot."""
