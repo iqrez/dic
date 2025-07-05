@@ -6,13 +6,13 @@ import discord
 from discord.ext import commands
 import yt_dlp
 
-from config import Config
-from database import init_database, get_db_manager
-from ui_components import create_embed, MusicControlView
-import commands as slash_commands
-from voice_utils import robust_voice_connect
-from smart_volume_transitions import get_smart_volume_transitions
-from download_manager import is_song_cached, get_cached_song_info
+from .config import Config
+from .database import init_database, get_db_manager
+from .ui_components import create_embed, MusicControlView
+from . import commands as slash_commands
+from .voice_utils import robust_voice_connect
+from .smart_volume_transitions import get_smart_volume_transitions
+from .download_manager import is_song_cached, get_cached_song_info
 
 logger = logging.getLogger(__name__)
 

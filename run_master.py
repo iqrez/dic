@@ -125,7 +125,7 @@ class MasterBotRunner:
         logger.info("🗄️ Setting up database...")
         
         try:
-            from database import init_database
+            from musicbot.database import init_database
             init_database()
             logger.info("✅ Database initialized successfully")
             return True
